@@ -1,0 +1,74 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Consultar tiquetes</h4>
+            </div>
+            <div class="card-body">
+                <form >
+                    <div class="row">
+                        <div class="col-md-3 pr-1">                            
+                            <div class="form-group">
+                                <label>Identificacion</label>
+                                <input type="number"  name="identificacion" [(ngModel)]="pasajero.identificacion" class="form-control" />
+                                <div class="invalid-feedback">Este campo es obligatorio</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 pr-1">                            
+                            <button class="btn btn-outline-info" (click)="buscar()">Buscar</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 pr-1">
+                            <div class="form-group">
+                                <label>Nombre</label>
+                                <input type="text"  name="nombre" [(ngModel)]="pasajero.nombre" class="form-control" />
+                                <div class="invalid-feedback">Este campo es obligatorio</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 pr-1">
+                            <div class="form-group">
+                                <label>Ruta</label>
+                                <select  name="ruta" [(ngModel)]="ruta" class="form-control">
+                                    <option value="" style="display:none">Seleccione una ruta...</option>
+                                    <option value="1">Valledupar -Bogotá ($ 90.000)</option>
+                                    <option value="2">Valledupar -Barranquilla ($ 35.000)</option>
+                                    <option value="3">Valledupar -Santa Marta ($ 40.000)</option>
+                                    <option value="4">Valledupar -Cartagena ($ 60.000)</option>
+                                </select>
+                                <div class="invalid-feedback">Este campo es obligatorio</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="update ml-auto mr-auto">
+                            <button class="btn btn-outline-success" (click)="add()">Guardar</button>
+                            <button type="reset" class="btn btn-outline-secondary">Cancelar</button>                            
+                        </div>
+                    </div>
+                </form> 
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead class=" text-primary">
+                            <th>#</th>
+                            <th>Idntificación</th>
+                            <th>Nombre</th>
+                            <th>Ruta</th>
+                            <th>Valor</th>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let p of pasajeros; index as i ">
+                                <th>{{ i + 1 }}</th>
+                                <td>{{p.identificacion}}</td>
+                                <td>{{p.nombre }}</td>
+                                <td>{{p.tiquete.ruta }}</td>
+                                <td>$ {{p.tiquete.valor }}</td>
+                            </tr>
+                        </tbody>                    
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>

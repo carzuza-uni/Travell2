@@ -1,0 +1,95 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="card card-user">
+            <div class="card-header">
+                <h4 class="card-title">Registrar productor</h4>
+            </div>  
+            <div class="card-body">
+                <form >
+                    <div class="row">
+                        <div class="col-md-3 pr-1">                            
+                            <div class="form-group">
+                                <label>Nombre del productor</label>
+                                <input type="text"  name="Nombre" [(ngModel)]="productor.Nombre" class="form-control" />
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 pr-1">
+                            <div class="form-group">
+                                <label>Número de cédula</label>
+                                <input type="text"  name="Cedula" [(ngModel)]="productor.Cedula" class="form-control" />
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 pl-1">                            
+                            <div class="form-group">
+                                <label>Número de cédula cafetera</label>
+                                <input type="text"  name="CedulaCafetera" [(ngModel)]="productor.CedulaCafetera" class="form-control" />
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 pr-1">                            
+                            <div class="form-group">
+                                <label>Nombre del predio</label>
+                                <input type="text"  name="NombrePredio" [(ngModel)]="productor.NombrePredio" class="form-control" />
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 pr-1">                            
+                            <div class="form-group">
+                                <label>Código Finca</label>
+                                <input type="text"  name="CodigoFinca" [(ngModel)]="productor.CodigoFinca" class="form-control" />
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 pr-1">                            
+                            <div class="form-group">
+                                <label>Código SICA</label>
+                                <input type="text"  name="CodigoSICA" [(ngModel)]="productor.CodigoSICA" class="form-control" />
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 pl-1">
+                            <div class="form-group">
+                                <label>Municipio</label>
+                                <select name="MunicipioId" [(ngModel)]="productor.MunicipioId" class="form-control" >
+                                    <option value="" style="display: none;">Seleccione una opción...</option>
+                                    <option value="1">Valledupar</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 pr-1">                            
+                            <div class="form-group">
+                                <label>Actividad(es) principal de ingresos</label>
+                                <input type="text"  name="Actividades" [(ngModel)]="productor.Actividades" class="form-control" />
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 pr-1">                            
+                            <div class="form-group">
+                                <label>Teléfono</label>
+                                <input type="text"  name="Telefono" [(ngModel)]="productor.Telefono" class="form-control" />
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 pr-1">                            
+                            <div class="form-group">
+                                <label>Afiliación salud</label>
+                                <input type="text"  name="AfiliacionSalud" [(ngModel)]="productor.AfiliacionSalud" class="form-control" />
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="update ml-auto mr-auto">
+                            <button class="btn btn-outline-success" (click)="add()">Guardar</button>
+                            <button type="reset" class="btn btn-outline-secondary">Cancelar</button>                            
+                        </div>
+                    </div>
+                </form> 
+            </div>
+        </div>
+                   
+    </div>
+</div>

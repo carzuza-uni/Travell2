@@ -1,0 +1,253 @@
+<div class="row">
+    <div class="col-md-4">
+        <app-productor-detalle></app-productor-detalle>
+    </div>
+    <div class="col-md-8">
+        <div class="card card-user">
+            <div class="card-header">
+                <h5 class="card-title">Informacion</h5>
+            </div>
+            <div class="card-body">
+                <app-nav-menu-productor></app-nav-menu-productor>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="row">
+                                <legend class="col-md-12">Localización</legend>
+                                <div class="form-group col-md-3">
+                                    <label>Latitud</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Norte Longitud:</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Este</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>M.S.N.M</label>
+                                    <input type="text" class="form-control">
+                                </div>
+
+                                <legend class="col-md-12">Suelo</legend>
+                                <div class="form-group col-md-4">
+                                    <label>Tiene Análisis de suelo</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="SI">SI</option>
+                                        <option value="NO">NO</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Fecha de realización</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Es aplicado y considerado en plan de fertilización</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="SI">SI</option>
+                                        <option value="NO">NO</option>
+                                    </select>
+                                </div>
+
+                                <legend class="col-md-12">Características físicas</legend>
+                                <div class="form-group col-md-3">
+                                    <label>Tipo de Textura</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="1">Arenosa (textura gruesa)</option>
+                                        <option value="2">Franco (textura media)</option>
+                                        <option value="3">Arcillosos (textura fina)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Presenta instalacion para preparacion de abonos</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="SI">SI</option>
+                                        <option value="NO">NO</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Tipo</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="Liquido">Liquido</option>
+                                        <option value="Solido">Solido</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Estado</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label>OBSERVACIONES</label>
+                                    <textarea class="form-control" rows="3"></textarea>
+                                </div>                                
+                            </div>  
+                            <div class="row">
+                                <div class="update ml-auto mr-auto">
+                                    <button class="btn btn-outline-success">Guardar</button>
+                                    <button type="reset" class="btn btn-outline-secondary">Cancelar</button>                            
+                                </div>
+                            </div>
+                        </form>
+                    </div>                    
+                </div>
+                <br><hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="card-title">Uso del suelo</h4>
+                        <form>
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label>Nº de lote o nombre</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Area (Has)</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Cultivos o Usos</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Nombre del Sombrío</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Cultivo planteado próximo año</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Pendiente</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="SI">SI</option>
+                                        <option value="NO">NO</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Presenta Erosión</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="Pronunciada">Pronunciada</option>
+                                        <option value="Moderada">Moderada</option>
+                                        <option value="Leve">Leve</option>
+                                    </select>
+                                </div>
+                            </div>  
+                            <div class="row">
+                                <div class="update ml-auto mr-auto">
+                                    <button class="btn btn-outline-success">Guardar</button>
+                                    <button type="reset" class="btn btn-outline-secondary">Cancelar</button>                            
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-12">
+                        <h5 class="card-title">Listado de usos</h5>
+                        <div class="table-responsive">
+                            <table class="table">
+                              <thead class=" text-primary">
+                                  <th>Nº de lote o nombre</th>
+                                  <th>Area (Has)</th>
+                                  <th>Cultivos o Usos</th>
+                                  <th>Nombre del Sombrío</th>
+                                  <!--<th>Cultivo planteado próximo año</th>
+                                  <th>Pendiente</th>
+                                  <th>Presenta Erosión</th>-->
+                                  <th>Acción</th>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                        <td>1</td>
+                                        <th>Area</th>
+                                        <td>cultivo 1</td>
+                                        <td>sombrio 1</td>
+                                        <td>
+                                            <button class="btn btn-outline-info btn-sm">Ver</button>
+                                        </td>
+                                  </tr>
+                              </tbody>                    
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <br><hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="card-title">Manejo cultivo de café, caña y Cacao</h4>
+                        <form>
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label>Nº  o nombre del lote</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Variedad</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Nº arboles</label>
+                                    <input type="number" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Sistema de renovación</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="Siembra">Siembra</option>
+                                        <option value="Poda">Poda</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Fecha de siembra</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Distancia de siembra</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>  
+                            <div class="row">
+                                <div class="update ml-auto mr-auto">
+                                    <button class="btn btn-outline-success">Guardar</button>
+                                    <button type="reset" class="btn btn-outline-secondary">Cancelar</button>                            
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-12">
+                        <h5 class="card-title">Listado de manejo de cultivo</h5>
+                        <div class="table-responsive">
+                            <table class="table">
+                              <thead class=" text-primary">
+                                  <th>Nº o nombre del lote</th>
+                                  <th>Variedad</th>
+                                  <th>Nº arboles</th>
+                                  <th>Fecha de siembra</th>
+                                  <th>Acción</th>
+                              </thead>
+                              <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <th>Varedad 1</th>
+                                        <td>4</td>
+                                        <td>2020-04-23</td>
+                                        <td>
+                                            <button class="btn btn-outline-info btn-sm">Ver</button>
+                                        </td>
+                                    </tr>
+                              </tbody>                    
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

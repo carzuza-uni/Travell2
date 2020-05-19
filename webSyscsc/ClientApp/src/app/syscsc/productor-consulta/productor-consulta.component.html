@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col-md-12 text-right">
+      <a [routerLink]="['/productorRegistro']"><button class="btn btn-outline-success">Registrar productor</button></a>
+    </div>
+    <div class="col-md-12">
+      <input [(ngModel)]="searchText" type="text" class="form-control" placeholder="Buscar...">
+      <hr>
+    </div>
+    <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title"> Consultar productores</h4>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table">
+                <thead class=" text-primary">
+                    <th>Nombre predio</th>
+                    <th>Núm. cédula</th>
+                    <th>Nún céd. cafetera</th>
+                    <th>Código finca</th>
+                    <th>Codigo SICA</th>
+                    <!--<th>Municipio</th>-->
+                    <th>Acción</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let productor of productores; index as i ">
+                        <!--<th>{{ i + 1 }}</th>-->
+                        <td>{{ productor.nombrePredio}} </td>
+                        <td>{{ productor.cedula}}</td>
+                        <td>{{ productor.cedulaCafetera}}</td>
+                        <td>{{ productor.codigoFinca}}</td>
+                        <td>{{ productor.codigoSICA}}</td>
+                        <td>
+                          <a [routerLink]="['/productorDatosFamilia', productor.proveedorId]"><button class="btn btn-outline-info btn-sm">Ficha diagnostico</button></a>
+                        </td>
+                    </tr>
+                </tbody>                    
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</div>
+

@@ -1,0 +1,26 @@
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Entity\obj\Debug\netstandard2.1\Entity.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Entity\obj\Debug\netstandard2.1\Entity.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Entity\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Entity\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Entity\obj\Debug\netstandard2.1\Entity.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Entity\obj\Debug\netstandard2.1\Entity.pdb

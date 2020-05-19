@@ -1,0 +1,41 @@
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\CARLOS\Desktop\Nueva carpeta\escritorio\universidad\programacion web\proyectos git\Syscsc-master\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Syscsc2\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\obj\Debug\netstandard2.1\Logica.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\obj\Debug\netstandard2.1\Logica.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\bin\Debug\netstandard2.1\Logica.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\bin\Debug\netstandard2.1\Logica.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\Carlos\Desktop\proyectos_uni\proyectos_git\Travell2\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete

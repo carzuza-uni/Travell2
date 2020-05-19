@@ -1,0 +1,112 @@
+<div class="row">
+    <div class="col-md-4">
+        <app-productor-detalle></app-productor-detalle>
+    </div>
+    <div class="col-md-8">
+        <div class="card card-user">
+            <div class="card-header">
+                <h5 class="card-title">Informacion</h5>
+            </div>
+            <div class="card-body">
+                <app-nav-menu-productor></app-nav-menu-productor>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label>Identificción</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Nombre</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Fecha de nacimiento</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Parentesco</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="Hijo (a)">Hijo (a)</option>
+                                        <option value="Padre">Padre</option>
+                                        <option value="Madre">Madre</option>
+                                        <option value="Hermano (a)">Hermano (a)</option>
+                                        <option value="Nieto (a)">Nieto (a)</option>
+                                        <option value="Abuelo (a)">Abuelo (a)</option>
+                                        <option value="Tio (a)">Tio (a)</option>
+                                        <option value="Sobrino (a)">Sobrino (a)</option>
+                                        <option value="Primo (a)">Primo (a)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Tipo de poblacion</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Afilición salud</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="SI">SI</option>
+                                        <option value="NO">NO</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label>Nivel educativo</label>
+                                    <select class="form-control">
+                                        <option value="" style="display: none;">Seleccione una opción...</option>
+                                        <option value="Ninguno">Ninguno</option>
+                                        <option value="Preescolar">Preescolar</option>
+                                        <option value="Basica primaria">Básica primaria</option>
+                                        <option value="Basica secundaria">Básica secundaria</option>
+                                        <option value="Tecnico">Técnico</option>
+                                        <option value="Universitario">Universitario</option>
+                                        <option value="Postgrado">Postgrado</option>
+                                    </select>
+                                </div>
+                            </div>  
+                            <div class="row">
+                                <div class="update ml-auto mr-auto">
+                                    <button class="btn btn-outline-success">Guardar</button>
+                                    <button type="reset" class="btn btn-outline-secondary">Cancelar</button>                            
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-12">
+                        <h4 class="card-title">Listado</h4>
+                        <div class="table-responsive">
+                            <table class="table">
+                              <thead class=" text-primary">
+                                  <th>Identificción</th>
+                                  <th>Nombre</th>
+                                  <!--<th>Fecha de nac.</th>-->
+                                  <th>Parentesco</th>
+                                  <!--<th>Tipo de poblacion</th>-->
+                                  <th>Afilición salud</th>
+                                  <!--<th>Nivel educativo</th>-->
+                                  <th>Acción</th>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                        <td>123456</td>
+                                        <th>Carlos</th>                                      
+                                        <!--<td>1996-08-01</td>-->
+                                        <td>Hermano (a)</td>
+                                        <!--<td>Poblacion</td>-->
+                                        <td>SI</td>
+                                        <!--<td>Universitario</td>-->
+                                        <td>
+                                            <button class="btn btn-outline-info btn-sm">Ver</button>
+                                        </td>
+                                  </tr>
+                              </tbody>                    
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
