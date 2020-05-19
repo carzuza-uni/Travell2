@@ -18,7 +18,7 @@
                             <button class="btn btn-outline-info" (click)="buscar()">Buscar</button>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" *ngIf="mostrarCampos">
                         <div class="col-md-3 pr-1">
                             <div class="form-group">
                                 <label>Nombre</label>
@@ -40,13 +40,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" *ngIf="mostrarCampos">
                         <div class="update ml-auto mr-auto">
                             <button class="btn btn-outline-success" (click)="add()">Guardar</button>
                             <button type="reset" class="btn btn-outline-secondary">Cancelar</button>                            
                         </div>
                     </div>
                 </form> 
+                <div class="col-md-12">
+                    <input [(ngModel)]="searchText" type="text" class="form-control" placeholder="Buscar...">
+                    <hr>
+                </div>
                 <div class="table-responsive">
                     <table class="table">
                         <thead class=" text-primary">
@@ -57,7 +61,7 @@
                             <th>Valor</th>
                         </thead>
                         <tbody>
-                            <tr *ngFor="let p of pasajeros; index as i ">
+                            <tr *ngFor="let p of pasajeros|filtroPasajero:searchText; index as i ">
                                 <th>{{ i + 1 }}</th>
                                 <td>{{p.identificacion}}</td>
                                 <td>{{p.nombre }}</td>

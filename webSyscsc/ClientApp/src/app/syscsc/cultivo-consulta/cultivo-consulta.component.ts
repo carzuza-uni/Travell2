@@ -18,6 +18,9 @@ export class CultivoConsultaComponent implements OnInit {
   ruta:number;
   rutas= [];
   valores = [];
+  searchText:string;
+  existePasajero;
+  mostrarCampos;
   constructor(private route: ActivatedRoute, private pasajeroService: PasajeroService) {
     this.rutas[1] = 'Valledupar -Bogotá';
     this.rutas[2] = 'Valledupar -Barranquilla';
@@ -28,6 +31,8 @@ export class CultivoConsultaComponent implements OnInit {
     this.valores[2] = 35000;
     this.valores[3] = 40000;
     this.valores[4] = 60000;
+
+    this.mostrarCampos = false;
    }
 
   ngOnInit() {
@@ -80,8 +85,9 @@ export class CultivoConsultaComponent implements OnInit {
     }
     this.pasajeroService.buscar(this.pasajero.identificacion).subscribe(result => {
       if(result != null){
-        this.pasajero.nombre = result.nombre;
+        this.pasajero.nombre = result.nombre;        
       }      
+      this.mostrarCampos = true;
     });
   }
 
