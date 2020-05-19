@@ -22,6 +22,13 @@ namespace Logica
                 if(pasajeroBuscado != null){
                     foreach (Tiquete item in pasajero.Tiquetes)
                     {
+                        if(pasajero.Identificacion != item.Identificacion){
+                            return new GuardarPasajeroResponse("Error la identificacion del pasajero no coincide con el tiquete");
+                        }
+                        var tiqueteB = _context.Tiquetes.Find(item.TiqueteId);
+                        if(tiqueteB != null){
+                            return new GuardarPasajeroResponse("Error la TiqueteId ya se encuentra registrado");
+                        }
                         pasajeroBuscado.Tiquetes.Add(item);
                     }
                     //return new GuardarPasajeroResponse("Error el pasajero ya se encuentra registrado");

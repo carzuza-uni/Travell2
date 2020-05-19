@@ -5,6 +5,7 @@ import { CultivoService } from 'src/app/services/cultivo.service';
 import { PasajeroService } from 'src/app/services/pasajero.service';
 import { Pasajero } from '../models/pasajero';
 import { Tiquete } from '../models/tiquete';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-cultivo-consulta',
@@ -19,9 +20,9 @@ export class CultivoConsultaComponent implements OnInit {
   rutas= [];
   valores = [];
   searchText:string;
-  existePasajero;
   mostrarCampos;
-  constructor(private route: ActivatedRoute, private pasajeroService: PasajeroService) {
+  formGroup: FormGroup;
+  constructor(private route: ActivatedRoute, private pasajeroService: PasajeroService, private formBuilder: FormBuilder) {
     this.rutas[1] = 'Valledupar -Bogotá';
     this.rutas[2] = 'Valledupar -Barranquilla';
     this.rutas[3] = 'Valledupar -Santa Marta';
@@ -36,15 +37,40 @@ export class CultivoConsultaComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.pasajero = new Pasajero();
+    this.buildForm();
     this.get();
   }
 
-  add(){
-    if(!this.pasajero.nombre){
-      alert('Debe completar el campo Nombre.');
-      return false;
+  private buildForm() {
+      this.pasajero = new Pasajero();
+      this.pasajero.identificacion = 0;
+      this.pasajero.nombre = '';
+      this.ruta = 0;
+      this.formGroup = this.formBuilder.group({
+        identificacion: [this.pasajero.identificacion, [Validators.required, Validators.min(1)]],
+        nombre: [this.pasajero.nombre, Validators.required],
+        ruta: [this.ruta, [Validators.required, Validators.min(1)]]
+      });
+  }    
+
+  get control() { 
+    return this.formGroup.controls;
+  }
+  
+  onSubmit() {
+    if (this.formGroup.invalid) {
+      return;
     }
+    this.add();
+  }
+    
+
+  add(){
+    console.log('valores', this.formGroup.value);
+    this.pasajero.identificacion = this.formGroup.value.identificacion;
+    this.pasajero.nombre = this.formGroup.value.nombre;
+    this.ruta = Number(this.formGroup.value.ruta);
+
     let tiquete:Tiquete = new Tiquete();
     
     tiquete.identificacion = this.pasajero.identificacion;
@@ -86,7 +112,9 @@ export class CultivoConsultaComponent implements OnInit {
     this.pasajeroService.buscar(this.pasajero.identificacion).subscribe(result => {
       if(result != null){
         this.pasajero.nombre = result.nombre;        
-      }      
+      }else{
+        alert('El pasajero no se encuentra registrado');
+      }
       this.mostrarCampos = true;
     });
   }
